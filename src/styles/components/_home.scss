@@ -1,0 +1,14 @@
+.home__gallery {
+  width: 100%;
+  height: 650px;
+}
+
+.home__content {
+  margin-top: $xl-size;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home__content img {
+  width: 100%;
+}

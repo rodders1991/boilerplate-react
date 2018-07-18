@@ -5,6 +5,19 @@ html {
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: $m-size;
+  background: $light-blue;
+}
+
+a {
+  color: inherit;
+}
+
+// Container of app
+.app-container {
+  margin: auto;
+  width: 70%;
+  background:lighten($light-blue, 30%);
+  border-top: $l-size solid darken($dark-red, 10%);
 }
 
 button {
