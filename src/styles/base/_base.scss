@@ -17,7 +17,7 @@ a {
   margin: auto;
   width: 70%;
   background:lighten($light-blue, 30%);
-  border-top: $l-size solid darken($dark-red, 10%);
+  border-top: $l-size solid lighten($dark-red,30%);
 }
 
 button {
