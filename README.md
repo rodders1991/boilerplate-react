@@ -1,4 +1,4 @@
-# Indecision App
+# React boilerplate
 
 ## Prerequisites
 
