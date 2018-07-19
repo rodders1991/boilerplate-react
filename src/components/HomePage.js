@@ -14,19 +14,24 @@ const HomePage = () => {
           title="About us"
           content="tetststtststtststststs"
           link="/"
-        />
+        >
+        At Ruislip Stars Nurseries, we believe that childhood, is a very precious time.
+      </Promotion>
         <Promotion
           image="/images/article2.jpg"
-          title="Sign up"
+          title="Menu"
           content="tetststtststtststststs"
           link="/"
-        />
+        >
+        Our Menus are changed weekly with fresh, healthy food for growing children.
+      </Promotion>
         <Promotion
           image="/images/article3.jpg"
           title="Contact us"
-          content="tetststtststtststststs"
           link="/"
-        />
+        >
+        For enquires
+        </Promotion>
       </div>
     </div>
   );

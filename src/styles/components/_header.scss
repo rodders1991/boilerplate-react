@@ -7,18 +7,25 @@
 .header__logo {
     width:250px;
     height:150px;
+    margin-right: $l-size;
 }
 
 .header__nav {
   margin-top: 8rem;
+  font-family: "Indie Flower";
   display: flex;
   justify-content: space-between;
   min-width: 600px;
   color: darken($light-blue, 50);
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: $l-size;
+  flex-grow: 1;
 }
 
 .header__nav__link {
   text-decoration: none;
+}
+
+.header__nav__link:hover {
+  color: black;
 }

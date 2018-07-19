@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Open Sans";
   font-size: $m-size;
   background: $light-blue;
 }
@@ -16,6 +16,7 @@ a {
 .app-container {
   margin: auto;
   width: 70%;
+  min-width: 1200px;
   background:lighten($light-blue, 30%);
   border-top: $l-size solid lighten($dark-red,30%);
 }
