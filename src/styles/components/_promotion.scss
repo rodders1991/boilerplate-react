@@ -1,0 +1,11 @@
+.promotion {
+  height: 250px;
+  width: 300px;
+  background-color: lighten($light-blue, 10%);
+  border-radius: 30%;
+}
+
+.promotion__img {
+  height: 200px;
+  width: 200px;
+}
