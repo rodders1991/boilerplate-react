@@ -1,1 +1,1 @@
-web: yarn run dev-server
+web: yarn run build && node prod.js
