@@ -5,10 +5,10 @@ const Header = () => (
     <img className="header__logo" src="/images/logo.png" />
     <div className="header__nav">
       <NavLink className="header__nav__link" to="/">Home</NavLink>
-      <NavLink className="header__nav__link" to="/">About</NavLink>
-      <NavLink className="header__nav__link" to="/">Job Vancancies</NavLink>
-      <NavLink className="header__nav__link" to="/">Contact Us</NavLink>
-      <NavLink className="header__nav__link" to="/">Menu</NavLink>
+      <NavLink className="header__nav__link" to="/about">About</NavLink>
+      <NavLink className="header__nav__link" to="/job">Job Vancancies</NavLink>
+      <NavLink className="header__nav__link" to="/contact">Contact Us</NavLink>
+      <NavLink className="header__nav__link" to="/menu">Menu</NavLink>
     </div>
   </div>
 );
