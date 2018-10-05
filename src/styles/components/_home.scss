@@ -4,7 +4,37 @@
 }
 
 .home__content {
-  margin-top: $xl-size;
+	text-align: center;
+  padding: 0 100px;
+}
+
+.home__content h2 {
+	font-family: "Indie Flower";
+	font-size: $xl-size;
+  color: $dark-red;
+}
+
+.home__content p {
+  color: lighten(black, 30);
+  font-size: $ml-size;
+}
+.home__promotion {
+  margin-top: 10rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  background-color: lighten($dark-red, 55);
+}
+
+.promotion__img {
+  height: 400px;
+  width: 50%;
+}
+
+.promotion__title {
+  font-size: $m-size;
+}
+
+.promotion__content {
+  font-size: $m-size;
+  height: 5rem;
 }

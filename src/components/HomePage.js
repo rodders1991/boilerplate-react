@@ -1,5 +1,4 @@
 import React from 'react';
-import Promotion from './Promotion';
 
 const HomePage = () => {
   return (
@@ -9,29 +8,14 @@ const HomePage = () => {
         <img src="/images/cover.jpg" width="100%" height="100%" />
       </div>
       <div className="home__content">
-        <Promotion
-          image="/images/article1.jpg"
-          title="About us"
-          content="tetststtststtststststs"
-          link="/"
-        >
-        At Ruislip Stars Nurseries, we believe that childhood, is a very precious time.
-      </Promotion>
-        <Promotion
-          image="/images/article2.jpg"
-          title="Menu"
-          content="tetststtststtststststs"
-          link="/"
-        >
-        Our Menus are changed weekly with fresh, healthy food for growing children.
-      </Promotion>
-        <Promotion
-          image="/images/article3.jpg"
-          title="Contact us"
-          link="/"
-        >
-        For enquires
-        </Promotion>
+        <h2>Welcome to Ruislip Stars Nurseries</h2>
+        <p>At Ruislip Stars Nurseries, we believe that childhood, particularly the early years, is a very precious time. Our philosophy is that every child deserves the best possible start in life.</p>
+      </div>
+      <div className="home__promotion">
+        <div className="promotion__content">
+          <p> tstetstaysuduysad </p>
+        </div>
+        <img className="promotion__img" src="/images/article3.jpg" />
       </div>
     </div>
   );
