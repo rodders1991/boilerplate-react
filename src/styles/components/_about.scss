@@ -1,0 +1,26 @@
+.about {
+	display: flex;
+  	justify-content: space-between;
+  	margin: 50px;
+}
+
+.about__content {
+	flex-basis: 80%;
+	padding-right: 60px;
+}
+.about__content h1 {
+	font-family: "Indie Flower";
+	font-size: $xl-size;
+	color: $dark-red;
+}
+
+.about__gallery {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.about__gallery img {
+	width: 200px;
+	height: 150px;
+	margin: 20px 0;
+}

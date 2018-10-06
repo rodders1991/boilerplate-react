@@ -1,0 +1,16 @@
+.contact {
+	display: flex;
+  	justify-content: space-between;
+  	margin: 20px 50px;
+}
+
+.contact__form {
+	flex-basis: 80%;
+	padding-right: 60px;
+}
+.contact__form h1 {
+	font-family: "Indie Flower";
+	font-size: $xl-size;
+	color: $dark-red;
+}
+

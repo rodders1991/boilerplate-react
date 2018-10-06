@@ -1,6 +1,6 @@
 .home__gallery {
   width: 100%;
-  height: 650px;
+  height: 550px;
 }
 
 .home__content {
@@ -19,7 +19,7 @@
   font-size: $ml-size;
 }
 .home__promotion {
-  margin-top: 10rem;
+  margin-top: 5rem;
   display: flex;
   justify-content: space-between;
   background-color: lighten($dark-red, 55);
@@ -36,5 +36,31 @@
 
 .promotion__content {
   font-size: $m-size;
-  height: 5rem;
+  text-align: center;
+  width: 50%;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.promotion__content h2 {
+  font-family: "Indie Flower";
+  color: $dark-blue;
+  font-size: $l-size;
+}
+
+.promotion__content p {
+  color: lighten($dark-blue, 20);
+}
+
+.promotion__link {
+  padding: $ml-size;
+  background-color: darken($green, 10);
+  text-decoration: none;
+  color: white;
+}
+
+.promotion__link__container {
+  margin: 50px;
 }

@@ -1,0 +1,18 @@
+.footer__content {
+	display: flex;
+	justify-content: space-around;
+	background-color: lighten($dark-blue, 20);
+	color: white;
+	border-bottom: $l-size solid $dark-red;
+}
+
+.footer__element {
+	width: 250px;
+	text-align: center;
+}
+
+.footer__element h2 {
+	font-family: "Indie Flower";
+	font-size: $l-size;
+}
+
