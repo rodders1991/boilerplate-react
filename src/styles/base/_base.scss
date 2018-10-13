@@ -12,6 +12,8 @@ a {
   color: inherit;
 }
 
+textarea, input { outline: none; }
+
 // Container of app
 .app-container {
   margin: auto;

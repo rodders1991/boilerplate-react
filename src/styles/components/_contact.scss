@@ -1,16 +1,38 @@
 .contact {
 	display: flex;
-  	justify-content: space-between;
+  	justify-content: space-around;
   	margin: 20px 50px;
 }
 
 .contact__form {
-	flex-basis: 80%;
+	// flex-basis: 80%;
 	padding-right: 60px;
+	width: 40%;
 }
-.contact__form h1 {
+.contact__title {
 	font-family: "Indie Flower";
 	font-size: $xl-size;
 	color: $dark-red;
+	margin-left: $xl-size;
 }
 
+.contact__input {
+	width: 90%;
+	padding: 7px;
+	border: 1px solid lighten(#000000, 40%);
+	border-radius: 3px;
+}
+
+.contact__map {
+	width: 50%;
+	height: 50vh;
+}
+
+.contact__submit {
+	padding: $ml-size;
+	background-color: darken($green, 10);
+	text-decoration: none;
+	color: white;
+	border: none;
+	margin-top: $l-size;
+  }
