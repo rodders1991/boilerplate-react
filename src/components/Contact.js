@@ -1,6 +1,9 @@
 import React from 'react';
 import { Form, Text, TextArea } from "react-form";
-import Map from "google-map-react";
+
+const {
+	GOOGLE_MAP_ID,
+} = process.env;
 
 const Contact = () => (
 	<div>
@@ -21,14 +24,14 @@ const Contact = () => (
 						<button type="submit" className="contact__submit">Send</button>
 				</form>
 			)} />
-			<div className="contact__map">
-				<Map 
-					defaultCenter={{lat: 59.95, lng: 30.33}}
-					defaultZoom={11}
-				/>
-			</div>
+			<iframe
+				className="contact__map"
+				src={`https://www.google.com/maps/embed/v1/place?q=Ruislip%20Stars%20Nursery&key=${GOOGLE_MAP_ID}`}
+			/>
 		</div>
 	</div>
 );
 
 export default Contact;
+
+// https://www.google.com/maps/embed/v1/place?q=Ruislip%20Stars%20Nursery&key=
