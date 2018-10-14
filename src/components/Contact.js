@@ -1,10 +1,6 @@
 import React from 'react';
 import { Form, Text, TextArea } from "react-form";
 
-const {
-	GOOGLE_MAP_ID,
-} = process.env;
-
 const Contact = () => (
 	<div>
 		<h1 className="contact__title">Contact us</h1>
@@ -26,7 +22,7 @@ const Contact = () => (
 			)} />
 			<iframe
 				className="contact__map"
-				src={`https://www.google.com/maps/embed/v1/place?q=Ruislip%20Stars%20Nursery&key=${GOOGLE_MAP_ID}`}
+				src="https://www.google.com/maps/embed/v1/place?q=Ruislip%20Stars%20Nursery&key=AIzaSyD2WJ8TJugGnFxMkEeeMzZ0mUJGGsUHUTc"
 			/>
 		</div>
 	</div>
