@@ -8,8 +8,8 @@ const HomePage = () => {
         <img src="/images/cover.jpg" width="100%" height="100%" />
       </div>
       <div className="home__content">
-        <h2>Welcome to Ruislip Stars Nurseries</h2>
-        <p>At Ruislip Stars Nurseries, we believe that childhood, particularly the early years, is a very precious time. Our philosophy is that every child deserves the best possible start in life.</p>
+        <h2>Welcome to Ruislip Stars Nurseries and Pre school</h2>
+        <p>At Ruislip Stars Nurseries Pre school, we believe that childhood, particularly the early years, is a very precious time. Our philosophy is that every child deserves the best possible start in life.</p>
       </div>
       <div className="home__promotion">
         <img className="promotion__img" src="/images/article3.jpg" />
