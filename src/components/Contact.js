@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Text, TextArea, S } from "react-form";
+import { Form, Text, TextArea } from "react-form";
 import Map from "google-map-react";
 
 const Contact = () => (
@@ -10,7 +10,6 @@ const Contact = () => (
 				submitForm
 			}) => (
 				<form className="contact__form">
-					{/* <h1>Contact us</h1> */}
 						<h4>Name</h4>
 						<Text className="contact__input" field="name" placeholder='Name' />
 						<h4>Email</h4>

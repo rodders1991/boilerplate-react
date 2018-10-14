@@ -1,38 +1,51 @@
-.contact {
+.job {
 	display: flex;
   	justify-content: space-around;
-  	margin: 20px 50px;
+  	margin: 0 50px 50px 0;
 }
 
-.contact__form {
+.job__article {
+	padding: $l-size;
+}
+.job__form {
 	// flex-basis: 80%;
 	padding-right: 60px;
-	width: 40%;
+	width: 60%;
 }
-.contact__title {
+.job__title {
 	font-family: "Indie Flower";
 	font-size: $xl-size;
 	color: $dark-red;
 	margin-left: $xl-size;
+	margin-bottom: 5px;
 }
 
-.contact__input {
+.job__input {
 	width: 90%;
 	padding: 7px;
 	border: 1px solid lighten(#000000, 40%);
 	border-radius: 3px;
 }
 
-.contact__map {
-	width: 50%;
-	height: 50vh;
-}
-
-.contact__submit {
+.job__submit {
 	padding: $ml-size;
 	background-color: darken($green, 10);
 	text-decoration: none;
 	color: white;
 	border: none;
 	margin-top: $l-size;
+}
+
+.job__fileContainer {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.job__fileContainer h4 {
+	width: auto;
+}
+
+.job__fileContainer input {
+	margin-top: 25px;
 }
